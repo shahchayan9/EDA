@@ -50,3 +50,30 @@ This project requires the following Python packages:
 To install dependencies:
 ```bash
 !pip install numpy==1.21.0 pandas matplotlib statsmodels pycaret
+```
+## Run Instructions
+
+### Clone the repository:
+```bash
+git clone <your-repo-link>
+cd <repository-directory>
+```
+### Open the Colab notebooks:
+You’ll find two Colab notebooks:
+
+- **Tabular_Analysis.ipynb**: For the tabular analysis.
+- **Time_Series_Analysis.ipynb**: For the time-series analysis.
+
+### Upload Dataset:
+Ensure the `city_temperature.csv` dataset is uploaded to the Colab environment before running the code cells.
+
+### Run Cells:
+Follow each notebook’s step-by-step cells to preprocess data, perform analysis, and build models.
+
+## Project Structure
+
+├── Tabular_Analysis.ipynb       # Notebook for tabular analysis and modeling with PyCaret
+├── Time_Series_Analysis.ipynb   # Notebook for time-series analysis and forecasting
+├── city_temperature.csv         # Dataset (not included due to size; download from Kaggle)
+└── README.md                    # Project README
+
