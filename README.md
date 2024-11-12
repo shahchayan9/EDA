@@ -73,7 +73,10 @@ Follow each notebook’s step-by-step cells to preprocess data, perform analysis
 ## Project Structure
 
 ├── Tabular_Analysis.ipynb       # Notebook for tabular analysis and modeling with PyCaret
+
 ├── Time_Series_Analysis.ipynb   # Notebook for time-series analysis and forecasting
+
 ├── city_temperature.csv         # Dataset (not included due to size; download from Kaggle)
+
 └── README.md                    # Project README
 
