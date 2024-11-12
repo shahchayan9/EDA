@@ -72,11 +72,14 @@ Follow each notebook’s step-by-step cells to preprocess data, perform analysis
 
 ## Project Structure
 
-├── Tabular_Analysis.ipynb       # Notebook for tabular analysis and modeling with PyCaret
+├── Tabular_Analysis.ipynb           # Notebook for tabular analysis and modeling with PyCaret
 
-├── Time_Series_Analysis.ipynb   # Notebook for time-series analysis and forecasting
+├── Time_Series_Analysis.ipynb       # Notebook for time-series analysis and forecasting
 
-├── city_temperature.csv         # Dataset (not included due to size; download from Kaggle)
+├── city_temperature.csv             # Dataset (not included due to size; download from Kaggle)
 
-└── README.md                    # Project README
+└── README.md                        # Project README
 
+##Results
+Tabular Analysis: The best model was selected using PyCaret’s compare_models(), providing a predictive baseline for temperature estimation based on available features.
+Time-Series Analysis: A time-series regression model was built to forecast future temperatures, with a focus on seasonal and trend components observed in the data.
