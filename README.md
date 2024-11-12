@@ -80,6 +80,6 @@ Follow each notebook’s step-by-step cells to preprocess data, perform analysis
 
 └── README.md                        # Project README
 
-##Results
+## Results
 Tabular Analysis: The best model was selected using PyCaret’s compare_models(), providing a predictive baseline for temperature estimation based on available features.
 Time-Series Analysis: A time-series regression model was built to forecast future temperatures, with a focus on seasonal and trend components observed in the data.
